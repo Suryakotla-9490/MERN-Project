@@ -1,0 +1,127 @@
+.wrapperbox {
+    color: black;
+    padding-left: 50px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    /* width: 500px;
+    height: 300px; */
+    margin-top: -60px;
+
+
+
+    &.framebox {
+        width: 200px;
+        height: 100px;
+        border: 5px solid #C76A97;
+    }
+
+
+    &.imagebox {
+        display: flex;
+        width: fit-content;
+        height: auto;
+        margin-left: 45px;
+        position: relative;
+    }
+
+    &.fillbox {
+        width: 168px;
+        height: 139px;
+        border-radius: 9px;
+        margin-bottom: 100px;
+        background-color: #C76A97;
+        margin-left: -5px;
+        margin-top: -80px;
+        z-index: 10;
+    }
+
+
+}
+.circle-containter {
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 645px;
+}
+.circle {
+    align-items: center;
+    border: 3px solid #401760;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.part2 {
+    padding-top: 12%;
+    color: black;
+    text-align: start;
+}
+.part2>p {
+    width: 729px;
+    padding-right: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    color: #8F8F8F;
+}
+.heading {
+    font-weight: 800;
+    width: 642px;
+    text-transform: uppercase;
+}
+.sub-heading {
+    color: #C76A97;
+    font-size: 24px;
+}
+.mycontainer {
+    color: white;
+    transform: rotate(180deg);
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    background-color: #FFF2F8;
+    position: relative;
+    overflow: hidden;
+}
+.mycontainer:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -5%;
+    left: -5%;
+    height: 120px;
+    background: #fff;
+    -webkit-clip-path: ellipse(50% 60% at 50% 100%);
+    clip-path: ellipse(50% 60% at 50% 100%);
+}
+.sub-container {
+     margin-top: 200px;
+    width: 100%;
+    transform: rotate(180deg);
+}
+.features-icon {
+    width: 40px;
+    height: 40px;
+}
+.names {
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.more-btn {
+    background-color: #C76A97;
+    color: #fff;
+    font-family: " Kumbh Sans";
+    border: 1px solid #C76A97;
+    border-radius: 33px;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-weight: 600;
+}
